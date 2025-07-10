@@ -1,3 +1,7 @@
+local script = Instance.new("Script")
+local script.name = "Dex"
+local script.parent = game.workspace
+
 script.OnServerEvent:Connect(function(player)
 	-- https://github.com/LorekeeperZinnia/Dex
 
